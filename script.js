@@ -2,6 +2,7 @@
 // a.let Obj1 = {name:"person 1", age:5};
 // b.let Obj2 = {age:5, name: "person 1"};
 
+
 var Obj1 = {
     "name" : "person1",
     "age" : 5
