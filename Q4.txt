@@ -1,0 +1,204 @@
+//Task 1: Simple Programs todo for variables:
+
+//Q1.Declare four variables without assigning values and print them in console
+var a;
+var b;
+var c;
+var d;
+{
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+}
+
+//Q2.How to get value of the variable as output
+var x = 10;
+console.log(x);
+
+//Q3.Declare variables to store your first name, last name, marital status, country and age in multiple lines
+var firstname = "Anbu";
+var lastname = "Mani";
+var maritalstatus = "Single";
+var country = "India";
+var age = 30;
+{
+    console.log(firstname);
+    console.log(lastname);
+    console.log(maritalstatus);
+    console.log(country);
+    console.log(age);
+}
+
+//Q4.Declare variables to store your first name, last name, marital status, country and age in a single line
+var firstname = "Anbu";
+var lastname = "Mani";
+var maritalstatus = "Single";
+var country = "India";
+var age = 30;
+{
+console.log("First Name: " + firstname, "Last Name: " + lastname, "Marital Status: " + maritalstatus, "Country: " + country, "Age: " + age);
+}
+
+//Q5.Declare variables and assign string, boolean, undefined and null data types
+var x = "hi hello";
+{
+    console.log(x);
+}
+var y = 25;
+var z = 30;
+if (y<z)
+{
+    console.log("true");
+}
+else
+{
+    console.log("false");
+}
+var n;
+{
+    console.log(n);
+}
+var p = 25;
+if (p>0)
+{
+    console.log("NULL");
+}
+
+//Q6.Convert the string to integer
+var q = "25";
+{
+    console.log(parseInt(q));
+    console.log(+25);
+}
+
+//Q7. Write 6 statement which provide truthy & falsey values.
+// Truthy values;
+var a = 20;
+var b = 50;
+var c = a<b;
+{
+    console.log(c);
+}
+var d = 5;
+if (d%5===0){
+    console.log(d);
+}
+var x = 15;
+{
+    console.log(x);
+}
+
+
+// Falsy values:
+var A = 20;
+var B = 40;
+var C = A>B;
+{
+    console.log(C);
+}
+var D = 10;
+if (D%3===0){
+    console.log(D)
+}
+var X = 10;
+{
+    console.log(Y);
+}
+
+
+
+//Task 2: Simple Programs todo for Operators;
+//Q1.Square of a number
+var A = 9;
+var B = Math.pow(A,2);
+{
+    console.log(B);
+}
+
+//Q3.Addition of 3 numbers
+var x = 10;
+var y = 25;
+var z = 30;
+var N = (x+y+z);
+{
+    console.log(N);
+}
+
+//Q4.Celsius to Fahrenheit conversion
+var a = 10;
+var b = (a*9/5)+32;
+{
+    console.log(b);
+}
+
+//Q5.Meter to miles
+var A = 25;
+var B = (A*0.00062137);
+{
+    console.log(B);
+}
+
+//Q6.
+var P = 5;
+var Q = (P*0.45359237);
+{
+    console.log(Q);
+}
+
+
+//Q9.Power of any number x^y
+var x = 2;
+var y = 3;
+var z = Math.pow(x,y);
+{
+    console.log(z);
+}
+
+//Q10.Calculate Simple Interest
+var P = 1000;
+var T = 2;
+var R = 5;
+var SI = (P*T*R)/100;
+{
+    console.log(SI);
+}
+
+//Q11.Calculate area of an equilateral triangle
+var a = 20; 
+var b = (Math.sqrt(3)/4*Math.pow(a,2))
+{
+    console.log(b);
+}
+
+//Q12.Area Of Isosceles Triangle
+var b = 5;
+var h = 8;
+var A = (1/2*b*h);
+{
+    console.log(A);
+}
+
+//Q13.Volume Of Sphere
+var r = 2;
+var V = (4/3*Math.PI*Math.pow(r,3));
+{
+    console.log(V);
+}
+
+//Q14.Volume Of Prism
+var b = 5;
+var h = 3;
+var l = 8;
+var V = (1/2)*b*h*l;
+{
+    console.log(V);
+}
+
+//Q15.Find area of a triangle.
+var b = 3;
+var h = 6;
+var N = (1/2*b*h);
+{
+    console.log(N);
+}
