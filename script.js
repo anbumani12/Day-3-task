@@ -2,29 +2,19 @@
 // a.let Obj1 = {name:"person 1", age:5};
 // b.let Obj2 = {age:5, name: "person 1"};
 
-var Obj1 = {
-    "name" : "person1",
-    "age" : 5
-}
+let Obj1 = {name:"person 1", age:5}
+var Obj2 = {age:5, name: "person 1"}
+    
+let strObj1 = JSON.stringify(Obj1);
+let strObj2 = JSON.stringify(Obj2);
 
-var Obj2 = {
-    "age" : 5,
-    "name" : "person1"
-}
-
-var strObj1 = JSON.stringify(Obj1);
-var strObj2 = JSON.stringify(Obj2);
-
-var parsedObj1 = JSON.parse(strObj1);
-var parsedObj2 = JSON.parse(strObj2);
-
-if (JSON.stringify(parsedObj1) === JSON.stringify(parsedObj2))
- {
-    console.log("equal");
+if (JSON.stringify(Obj1) === JSON.stringify(Obj2))
+{
+    console.log("both are equal");
 } 
 else
 {
-    console.log("not equal");
+    console.log("both are different");
 }
 
 //Q2 Use the rest countries API URL => https://restcountries.eu/rest/v2/all and display
